@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap');
 
 :root{
@@ -38,7 +39,7 @@ a{color:var(--accent); text-decoration:none}
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
   padding:12px 18px; border-radius:14px; font-weight:700;
-  background:var(--accent); color:#0f0f16; border:1px solid #7a7aad;
+  background:var(--accent); color:#0f0f16; border:1px solid #02afff;
   transition:transform .12s ease, filter .12s ease;
 }
 .btn:hover{transform:translateY(-1px); filter:brightness(1.06)}
@@ -96,7 +97,7 @@ a{color:var(--accent); text-decoration:none}
 
 .status__mid{flex:1; min-width:280px}
 .progress{height:12px; background:#0d0d13; border-radius:999px; border:1px solid var(--border); overflow:hidden}
-.progress__bar{height:100%; width:0; background:linear-gradient(90deg, var(--accent), #8a8ab6)}
+.progress__bar{height:100%; width:0; background:linear-gradient(90deg, var(--accent), #02afff)}
 .progress__info{display:flex; gap:8px; align-items:center; margin-top:8px; color:var(--muted)}
 
 .status__right{min-width:160px; text-align:right}
@@ -160,7 +161,7 @@ a{color:var(--accent); text-decoration:none}
 .member:hover{transform:translateY(-2px); transition:transform .12s ease}
 
 .avatar-ring{
-  --ring: conic-gradient(from 180deg, var(--accent), #8a8ab6, var(--accent));
+  --ring: conic-gradient(from 180deg, var(--accent), #02afff, var(--accent));
   padding:2px; border-radius:999px; background:var(--ring); display:inline-block;
 }
 .avatar{width:90px; height:90px; border-radius:999px; overflow:hidden; background:rgba(20,20,28,.6); display:grid; place-items:center}
@@ -219,7 +220,7 @@ a{color:var(--accent); text-decoration:none}
 }
 .rules .chapter__index{
   font-weight:900; color:#0f0f16; background:var(--accent);
-  border:1px solid #7a7aad; border-radius:999px; padding:4px 10px; font-size:.85rem;
+  border:1px solid #02afff; border-radius:999px; padding:4px 10px; font-size:.85rem;
 }
 .rules .chapter__title{margin:0; font-family:"Lexend"}
 
@@ -230,7 +231,7 @@ a{color:var(--accent); text-decoration:none}
 .rules .block ul{margin:0 0 8px 18px}
 .rules .badge{
   display:inline-block; margin:0 6px 0 0; padding:3px 8px; border-radius:999px;
-  font-weight:800; font-size:.78rem; color:#0f0f16; background:var(--accent); border:1px solid #7a7aad;
+  font-weight:800; font-size:.78rem; color:#0f0f16; background:var(--accent); border:1px solid #02afff;
 }
 
 .rules .callout{
